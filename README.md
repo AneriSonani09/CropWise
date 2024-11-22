@@ -81,9 +81,9 @@ Note that, for now it only supports following crops
   ```
 - `deploy` branch has only the code required for deploying the app (rest of the code that was used for training the models, data preparation can be accessed on `master` branch)
 - make Virtual Env
+
+- pip install -r requirements.txt
   
-  pip install -r requirements.txt
-  ```
 - And finally run the project with
   ```
   python app.py
